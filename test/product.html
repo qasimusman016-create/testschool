@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce website</title>
+ <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <!-- Top Sale Banner -->
+  <div class="flex flex-col md:flex-row justify-between items-center text-white bg-black rounded-lg px-4 py-2">
+    <p class="ml-2">
+      Summer sale for all swim suits and free express delivery – 50% off
+      <a href="product.html" class="ml-4 inline-block px-3 py-1 rounded transition transform hover:scale-105 active:scale-110">
+        Shop now
+      </a>
+    </p>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="mt-2 mx-2">
+    <div class="flex flex-col md:flex-row justify-between items-center">
+
+      <!-- Logo -->
+     <div>
+      <img src="iii.png" class="w-50 h-40 rounded-lg">
+     </div>
+
+      <!-- Nav Links -->
+      <div class="flex flex-col md:flex-row items-center gap-3 mt-3 md:mt-0 mr-5">
+        <a href="index.html" class="px-6 py-2 transition transform hover:scale-105">Home</a>
+        <a href="about.html.html"
+          class="px-6 py-2 transition transform hover:scale-105">About</a>
+        <a href="contact.html.html"
+          class="px-6 py-2 transition transform hover:scale-105">Contact</a>
+        <a href="sign in.html.html"
+          class="px-6 py-2 transition transform hover:scale-105">Sign Up</a>
+
+        <!-- Search Input -->
+        <input type="text" placeholder="What are you looking for?"
+          class="w-64 border rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-black transition" />
+      </div>
+    </div>
+  </nav>
+   
+
+
+
+
+
+
+  <div class="max-w-7xl mx-auto px-4 py-10">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+
+      <!-- LEFT: Image Gallery -->
+      <div class="flex gap-4">
+        <!-- Thumbnails -->
+        <div class="flex flex-col gap-3">
+          <img src="rhh.jpg" class="border rounded cursor-pointer">
+          <img src="rhh.jpg" class="border rounded cursor-pointer">
+          <img src="rhh.jpg" class="border rounded cursor-pointer">
+          <img src="rhh.jpg" class="border rounded cursor-pointer">
+        </div>
+
+        <!-- Main Image -->
+        <div class="flex-1 bg-white rounded-lg p-6 shadow">
+          <img src="rhh.jpg" class="mx-auto">
+        </div>
+      </div>
+
+      <!-- RIGHT: Product Info -->
+      <div class="bg-white rounded-lg p-6 shadow space-y-5">
+
+        <!-- Title -->
+        <h1 class="text-2xl font-semibold">Havic HV G-92 Gamepad</h1>
+
+        <!-- Rating -->
+        <div class="flex items-center gap-2 text-sm">
+          <div class="text-yellow-400">★★★★★</div>
+          <span class="text-gray-500">(150 Reviews)</span>
+          <span class="text-green-600 ml-2">In Stock</span>
+        </div>
+
+        <!-- Price -->
+        <div class="text-3xl font-bold">$192.00</div>
+
+        <!-- Description -->
+        <p class="text-gray-600">
+          PlayStation 5 Controller Skin High quality vinyl with air channel
+          adhesive for easy bubble free install & mess free removal.
+        </p>
+
+        <!-- Colors -->
+        <div>
+          <h3 class="font-medium mb-2">Colours:</h3>
+          <div class="flex gap-3">
+            <span class="w-6 h-6 rounded-full bg-black border cursor-pointer"></span>
+            <span class="w-6 h-6 rounded-full bg-red-500 border cursor-pointer"></span>
+          </div>
+        </div>
+
+        <!-- Size -->
+        <div>
+          <h3 class="font-medium mb-2">Size:</h3>
+          <div class="flex gap-2">
+            <button class="px-3 py-1 border rounded">XS</button>
+            <button class="px-3 py-1 border rounded">S</button>
+            <button class="px-3 py-1 border rounded bg-red-500 text-white">M</button>
+            <button class="px-3 py-1 border rounded">L</button>
+            <button class="px-3 py-1 border rounded">XL</button>
+          </div>
+        </div>
+
+        <!-- Quantity & Buy -->
+        <div class="flex items-center gap-4">
+          <div class="flex border rounded">
+            <button class="px-3 py-2">-</button>
+            <input type="text" value="2" class="w-12 text-center border-x">
+            <button class="px-3 py-2">+</button>
+          </div>
+          <button class="bg-red-500 text-white px-6 py-3 rounded hover:bg-red-600">
+            <a href="product.html">Buy now</a>
+          </button>
+        </div>
+
+        <!-- Delivery Info -->
+        <div class="border-t pt-4 space-y-3 text-sm">
+          <div class="flex gap-3 items-center">
+            🚚 <span>Free Delivery</span>
+          </div>
+          <div class="flex gap-3 items-center">
+            🔄 <span>Return Delivery within 30 days</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Related Products -->
+    <div class="mt-16">
+      <h2 class="text-xl font-semibold mb-6">Related Products</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+        <div class="bg-white p-4 rounded shadow">
+          <img src="rhh.jpg" class="mx-auto mb-2">
+          <p class="text-sm font-medium">Gamepad</p>
+          <p class="text-red-500">$120</p>
+        </div>
+        <div class="bg-white p-4 rounded shadow">
+          <img src="key.jpg" class="mx-auto mb-2">
+          <p class="text-sm font-medium">Keyboard</p>
+          <p class="text-red-500">$75</p>
+        </div>
+        <div class="bg-white p-4 rounded shadow">
+          <img src="mm.jpg" class="mx-auto mb-2">
+          <p class="text-sm font-medium">Monitor</p>
+          <p class="text-red-500">$220</p>
+        </div>
+        <div class="bg-white p-4 rounded shadow">
+          <img src="head.jpg" class="mx-auto mb-2">
+          <p class="text-sm font-medium">Headset</p>
+          <p class="text-red-500">$95</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!-- ===== Footer ===== -->
+  <footer class="bg-black text-gray-300 py-12">
+    <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-5 gap-8">
+
+      <div>
+        <h3 class="text-white font-semibold mb-3">Exclusive</h3>
+        <p class="text-sm mb-3">Subscribe & get 10% off</p>
+        <input type="email" placeholder="Enter your email" class="w-full px-3 py-2 rounded bg-gray-800 text-white">
+      </div>
+
+      <div>
+        <h3 class="text-white font-semibold mb-3">Support</h3>
+        <p class="text-sm">Karachi, Pakistan</p>
+        <p class="text-sm">exclusive@gmail.com</p>
+        <p class="text-sm">+92 300 0000000</p>
+      </div>
+
+      <div>
+        <h3 class="text-white font-semibold mb-3">Account</h3>
+        <ul class="space-y-2 text-sm">
+          <li>My Account</li>
+          <li>Login / Register</li>
+          <li>Cart</li>
+          <li>Shop</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="text-white font-semibold mb-3">Quick Link</h3>
+        <ul class="space-y-2 text-sm">
+          <li>Privacy Policy</li>
+          <li>Terms of Use</li>
+          <li>FAQ</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="text-white font-semibold mb-3">Download App</h3>
+        <img src="qr.jpg" class="mb-3">
+        <div class="flex space-x-3 text-xl">
+          <span>📘</span>
+          <span>🐦</span>
+          <span>📸</span>
+          <span>💼</span>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+
+
+</body>
+
+</html>
